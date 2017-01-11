@@ -1,0 +1,10 @@
+
+type: map
+func: ext_map
+mapping:
+  foo:
+    type: seq
+    func: ext_list
+    sequence:
+      - type: str
+        func: ext_str
